@@ -24,4 +24,4 @@ We start by checking eligibility, previous immigration history, and any possible
 
 IRCC officers review applications against specific requirements. Clear labels, complete forms, and a concise explanation package can make the file easier to understand and reduce back-and-forth requests.
 
-This article is demo content for the JC Immigration website concept and is not legal advice.
+This article is demo content for the SC Immigration Law website concept and is not legal advice.

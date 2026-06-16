@@ -12,7 +12,7 @@ const blogCollection = defineCollection({
       alt: z.string(),
     }),
     publishDate: z.string().transform(str => new Date(str)),
-    author: z.string().default('JC Immigration'),
+    author: z.string().default('SC Immigration Law'),
     category: z.string(),
     tags: z.array(z.string()),
   }),

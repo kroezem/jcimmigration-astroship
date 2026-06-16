@@ -24,4 +24,4 @@ Dates, names, and financial details should match across the application. Small i
 
 A review can help identify missing documents, unclear explanations, or evidence that should be reorganized before the application is sent.
 
-This article is demo content for the JC Immigration website concept and is not legal advice.
+This article is demo content for the SC Immigration Law website concept and is not legal advice.

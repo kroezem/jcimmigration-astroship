@@ -22,6 +22,6 @@ Applications often become weaker when funds are unclear, documents are inconsist
 
 ## How Guidance Helps
 
-JC Immigration helps students understand requirements, organize evidence, and prepare explanations that are specific to their circumstances.
+SC Immigration Law helps students understand requirements, organize evidence, and prepare explanations that are specific to their circumstances.
 
-This article is demo content for the JC Immigration website concept and is not legal advice.
+This article is demo content for the SC Immigration Law website concept and is not legal advice.

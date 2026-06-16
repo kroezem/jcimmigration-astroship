@@ -21,7 +21,7 @@ const { title } = Astro.props;
 
 const makeTitle = title
   ? title
-  : "JC Immigration | Canadian Immigration Legal Consultancy";
+  : "SC Immigration Law | Canadian Immigration Legal Consultancy";
 ---
 
 <!doctype html>
@@ -35,22 +35,22 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Expert Canadian immigration services for families, workers, and students. Book a consultation with JC Immigration today."
+      description="Expert Canadian immigration services for families, workers, and students. Book a consultation with SC Immigration Law today."
       canonical={canonicalURL}
       twitter={{
-        creator: "@jcimmigration",
-        site: "@jcimmigration",
+        creator: "@scimmigrationlaw",
+        site: "@scimmigrationlaw",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: "JC Immigration | Canadian Immigration Legal Consultancy",
+          title: "SC Immigration Law | Canadian Immigration Legal Consultancy",
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "JC Immigration consultation services",
+          alt: "SC Immigration Law consultation services",
         },
       }}
     />
