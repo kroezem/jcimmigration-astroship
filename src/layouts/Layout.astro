@@ -20,8 +20,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
+  ? title
+  : "JC Immigration | Canadian Immigration Legal Consultancy";
 ---
 
 <!doctype html>
@@ -35,22 +35,22 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="Expert Canadian immigration services for families, workers, and students. Book a consultation with JC Immigration today."
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",
-        site: "@web3templates",
+        site: "@jcimmigration",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: "JC Immigration | Canadian Immigration Legal Consultancy",
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "JC Immigration consultation services",
         },
       }}
     />
