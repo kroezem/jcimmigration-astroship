@@ -6,58 +6,47 @@ import PricingCard from "@/components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
+    name: "Initial Consultation",
     price: "Free",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Eligibility discussion",
+      "High-level pathway review",
+      "Next-step checklist",
+      "No obligation to continue",
     ],
     button: {
-      text: "Get Started",
-      link: "/",
+      text: "Book Consultation",
+      link: "/contact",
     },
   },
   {
-    name: "Startup",
-    price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
-    },
+    name: "Application Review",
+    price: "Flat Fee",
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "Document checklist review",
+      "Form and evidence feedback",
+      "Risk and completeness notes",
+      "Submission-readiness guidance",
     ],
     button: {
-      text: "Get Started",
-      link: "#",
+      text: "Request Review",
+      link: "/contact",
     },
   },
   {
-    name: "Enterprise",
+    name: "Full Representation",
     price: "Custom",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "File strategy and preparation",
+      "Forms and supporting documents",
+      "IRCC submission coordination",
+      "Ongoing application updates",
     ],
     button: {
-      text: "Contact us",
+      text: "Contact Us",
       link: "/contact",
     },
   },
@@ -67,9 +56,9 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Consultation Options</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Demo service options for common immigration support needs.
       </Fragment>
     </Sectionhead>
 

@@ -7,46 +7,46 @@ const features = [
     title: "Family Sponsorship",
     description:
       "Reunite with your spouse, common-law partner, or parents. We handle every form and submission from start to finish.",
-    icon: "bx:bxs-briefcase",
+    icon: "bx:bxs-group",
   },
   {
     title: "Express Entry",
     description:
       "Exploring permanent residency? We'll assess your profile and guide you through Federal Skilled Worker, CEC, and PNP streams.",
-    icon: "bx:bxs-window-alt",
+    icon: "bx:bxs-plane-take-off",
   },
   {
     title: "Work & Study Permits",
     description:
       "Coming to Canada to work or study? We ensure your permit application is complete, accurate, and compelling.",
-    icon: "bx:bxs-data",
+    icon: "bx:bxs-graduation",
   },
   {
     title: "Visitor Visas",
     description:
       "Planning a short-term visit? We'll help you prepare a strong application to maximize your chances of approval.",
-    icon: "bx:bxs-bot",
+    icon: "bx:bxs-map",
   },
   {
     title: "Application Review",
     description:
       "Already started your application? We'll review it before you submit and flag anything that could cause delays or refusals.",
-    icon: "bx:bxs-file-find",
+    icon: "bx:bxs-check-shield",
   },
   {
     title: "Full-Service Representation",
     description:
-      "We take care of everything — forms, documents, submissions, and all communications with IRCC from start to finish.",
-    icon: "bx:bxs-user",
+      "We take care of everything - forms, documents, submissions, and all communications with IRCC from start to finish.",
+    icon: "bx:bxs-briefcase-alt-2",
   },
 ];
 ---
 
 <div class="mt-16 md:mt-0">
-  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-navy-900">
     Immigration Services for Every Step
   </h2>
-  <p class="text-lg mt-4 text-slate-600">
+  <p class="text-lg mt-4 text-navy-600">
     From first consultations to final submissions, we help you understand your
     options and move forward with confidence.
   </p>
@@ -56,12 +56,12 @@ const features = [
   {
     features.map((item) => (
       <div class="flex gap-4 items-start">
-        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+        <div class="mt-1 bg-navy-700 rounded-full p-2 w-8 h-8 shrink-0">
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <h3 class="font-semibold text-lg text-navy-900">{item.title}</h3>{" "}
+          <p class="text-navy-600 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
     ))

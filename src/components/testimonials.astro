@@ -1,0 +1,46 @@
+---
+const testimonials = [
+  {
+    quote:
+      "JC Immigration handled our spousal sponsorship from start to finish. They were responsive, thorough, and made a stressful process feel manageable.",
+    attribution: "Priya S., Vancouver",
+  },
+  {
+    quote:
+      "I came to Canada on a study permit and they guided me through every step. I always knew exactly what was happening with my application.",
+    attribution: "Daniel O., Toronto",
+  },
+  {
+    quote:
+      "After 15 years of dreaming about Canada, their team made it real. Honest advice and genuine care the entire way.",
+    attribution: "Mei L., Calgary",
+  },
+];
+---
+
+<section class="mt-24">
+  <div>
+    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight text-navy-900">
+      What Our Clients Say
+    </h2>
+    <p class="text-lg mt-4 text-navy-600">
+      Demo testimonials showing the calm, personal support clients can expect
+      from JC Immigration.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+    {
+      testimonials.map((item) => (
+        <figure class="bg-cream-50 rounded-xl p-6 border border-navy-100 shadow-sm">
+          <blockquote class="text-navy-800 leading-relaxed">
+            "{item.quote}"
+          </blockquote>
+          <figcaption class="text-teal-600 font-semibold mt-5">
+            {item.attribution}
+          </figcaption>
+        </figure>
+      ))
+    }
+  </div>
+</section>

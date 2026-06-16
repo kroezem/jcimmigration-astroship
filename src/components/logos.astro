@@ -1,10 +1,36 @@
 ---
 // @ts-ignore
 import { Icon } from "astro-icon/components";
+
+const trustSignals = [
+  {
+    icon: "bx:bxs-check-shield",
+    label: "Licensed RCIC Consultants",
+  },
+  {
+    icon: "bx:bxs-time-five",
+    label: "15+ Years Experience",
+  },
+  {
+    icon: "bx:bxs-been-here",
+    label: "IRCC Submissions Handled End-to-End",
+  },
+  {
+    icon: "bx:bxs-conversation",
+    label: "Free Initial Consultation",
+  },
+];
 ---
 
-<div class="mt-24">
-  <p class="text-center text-slate-500">
-    Trusted by families, workers, and students across Canada.
-  </p>
+<div class="mt-24 border-y border-navy-100 py-8">
+  <div class="flex flex-wrap justify-center gap-x-8 gap-y-4">
+    {
+      trustSignals.map((item) => (
+        <div class="flex items-center gap-2">
+          <Icon class="text-teal-600 w-5 h-5" name={item.icon} />
+          <span class="text-navy-700 font-medium">{item.label}</span>
+        </div>
+      ))
+    }
+  </div>
 </div>

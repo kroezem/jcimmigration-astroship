@@ -1,10 +1,12 @@
 ---
 draft: false
-name: "Janette Lynch"
-title: "Senior Director"
+name: "Marcus T."
+title: "Senior Case Manager"
 avatar: {
-    src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280",
-    alt: "Janette Lynch"
+    src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?&fit=crop&w=500&h=500",
+    alt: "Marcus T."
 }
-publishDate: "2022-11-07 15:39"
+publishDate: "2022-11-08 15:39"
 ---
+
+Marcus coordinates document checklists, deadlines, and client updates so applications stay organized from intake to submission.
